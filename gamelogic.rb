@@ -35,8 +35,8 @@ class GameLogic
 
   def show_results(outcome)
     @board.print_board
-    if outcome == "tie"
-      puts "Tie game"
+    if outcome == 'tie'
+      puts 'Tie game'
     else
       puts "#{outcome} won"
     end
@@ -48,7 +48,7 @@ class GameLogic
   end
 
   def tie
-    "tie" unless @board.state.flatten.include?('')
+    'tie' unless @board.state.flatten.include?('')
   end
 
   def winner(player_mark)
