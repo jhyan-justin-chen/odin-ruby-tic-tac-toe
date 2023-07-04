@@ -95,6 +95,9 @@ class GameLogic
       player_mark
     end
   end
+
+  private :game_loop, :show_turn, :show_results, :process_turn
+  private :tie, :winner, :row_match, :column_match, :diagonal_match
 end
 
 GameLogic.new

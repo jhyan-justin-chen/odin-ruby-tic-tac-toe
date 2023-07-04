@@ -29,4 +29,6 @@ class Player
   def parse_input(input)
     [input[0].to_i - 1, input[2].to_i - 1]
   end
+
+  private :valid_input?, :parse_input
 end
