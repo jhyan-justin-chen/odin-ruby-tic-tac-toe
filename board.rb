@@ -12,7 +12,7 @@ class Board
   end
 
   def valid_move?(move)
-    @state[move[0]][move[1]].empty? if !move.nil? && move.all? { |coord| coord.between?(0, 2)}
+    @state[move[0]][move[1]].empty? if !move.nil? && move.all? { |coord| coord.between?(0, 2) }
   end
 
   def mark_board(x_loc, y_loc, mark)
