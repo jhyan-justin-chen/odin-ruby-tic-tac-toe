@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CPU
   attr_writer :board
   attr_accessor :symbol

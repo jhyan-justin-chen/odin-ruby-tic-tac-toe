@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Player
   attr_writer :board
   attr_accessor :symbol
